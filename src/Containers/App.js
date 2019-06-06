@@ -43,7 +43,7 @@ componentDidMount(){
       <h1>Loading..</h1>
     :(
       <div className='tc'>
-        <h1 className='f1 ma1'>RoboFriends</h1>
+        <h1 className='f1 ma1'>ReactRobots</h1>
         <SearchBox searchChange={onSearchChange}/>
         <Scroll>
           <CardList robots={filteredRobots}/>
